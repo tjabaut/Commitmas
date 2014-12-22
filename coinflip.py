@@ -13,4 +13,3 @@ if coinflip() == 0:
     print "Heads"
 else:
     print "Tails"
-fgfg
