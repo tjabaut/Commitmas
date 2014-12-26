@@ -21,3 +21,8 @@ The following is the procedure that finally succeded:
 2. Add an appropriate comment. Be sure to use assertive language to follow standards
 3. This is the key, instead of just clicking on Commit, **hover** over button until **Commit and Push** is shown
 4. Check on GitHub to ensure that the update was **Pushed**
+
+
+#Dec 25th 2014
+
+Merry Christmas everyone. Since I did not check in yesterday I decided to make a change from the CLI instead of PyCharm

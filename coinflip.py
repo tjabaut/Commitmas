@@ -16,3 +16,5 @@ def coinflip():
 
 a = coinflip()
 # print a
+
+raw_input("How many flips would you like? ")
