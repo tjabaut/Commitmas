@@ -23,6 +23,8 @@ The following is the procedure that finally succeded:
 4. Check on GitHub to ensure that the update was **Pushed**
 
 
-#Dec 25th 2014
+##Dec 25th 2014
 
 Merry Christmas everyone. Since I did not check in yesterday I decided to make a change from the CLI instead of PyCharm
+
+*update* changed heading style size.
