@@ -19,7 +19,7 @@ def coinflip(name=None):
 
     #print flip
     #return flip
-    return render_template('hello.html', name=flip)
+    return render_template('index.html', name=flip)
 
 
 if __name__ == '__main__':

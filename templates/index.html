@@ -1,19 +1,18 @@
 {% extends "hello.html" %}
-
-{% block title %}Welcome to Python CoinFlip{% endblock %}
-
-{% block intro %}Welcome to Python CoinFlip{% endblock %}
-
+{% block title %}Index{% endblock %}
 {% block head %}
     {{ super() }}
     <style type="text/css">
-        .important { color: #336699; }
+        .important { color: #ff9900; }
     </style>
 {% endblock %}
-
 {% block content %}
-    <h1>Index</h1>
+    <h1>Welcome to Python CoinFlip</h1>
     <p class="important">
-      Welcome on my awesome homepage.
+    {% if name %}
+        Your Result is: {{ name }}!
+    {% else %}
+        Try Again!
+    {% endif %}
     </p>
 {% endblock %}

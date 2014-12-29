@@ -9,18 +9,11 @@
 </head>
 <body>
     <div id="content">
-        <h1>{% block intro %}{% endblock %}</h1>
-        {% if name %}
-            <h2>Your Result is: {{ name }}!</h2>
-        {% else %}
-            <h2>Try Again!</h2>
-        {% endif %}
+        {% block content %}{% endblock %}
     </div>
 
     <div id="footer">
-        {% block footer %}
-        &copy; Copyright 2014 by <a href="http://vmcutlip.com/">vmcutlip.com</a>.
-        {% endblock %}
+        {% block footer %}{% endblock %}
     </div>
 </body>
 </html>
