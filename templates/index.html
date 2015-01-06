@@ -1,18 +1,28 @@
 {% extends "hello.html" %}
-{% block title %}Index{% endblock %}
+{% block title %}PyCoinFlip{% endblock %}
 {% block head %}
     {{ super() }}
     <style type="text/css">
-        .important { color: #ff9900; }
+        body {
+            background-color: {{ name[1] }};
+        }
     </style>
 {% endblock %}
 {% block content %}
     <h1>Welcome to Python CoinFlip</h1>
     <p class="important">
-    {% if name %}
-        Your Result is: {{ name }}!
+    {% if name[0] == "Heads" %}
+        Your Result is: {{ name[0] }}!
+        <br>
+        <img src={{ name[2] }}>
+
     {% else %}
-        Try Again!
+         Your Result is: {{ name[0] }}!
+        <br>
+        <img src={{ name[2] }}>
+
     {% endif %}
     </p>
 {% endblock %}
+
+{% extends 
