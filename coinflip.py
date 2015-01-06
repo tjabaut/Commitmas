@@ -15,7 +15,7 @@ def coinflip(name=None):
         #print "Background: Blue"
         #print "Image: /images/heads.jpg"
         ## Create a list to hold all items
-        flip = ["Heads", "blue", "static/heads.jpg"]
+        flip = ["Heads", "blue", "static/heads.png"]
         return render_template('index.html', name=flip)
 
     else:
@@ -23,7 +23,7 @@ def coinflip(name=None):
         #print "Background: Orange"
         #print "Image: /images/tails.jpg"
         ## Create a list to hold all items
-        flip = ["Tails", "red", "static/tails.jpg"]
+        flip = ["Tails", "red", "static/tails.png"]
         return render_template('index.html', name=flip)
 
     #print flip
